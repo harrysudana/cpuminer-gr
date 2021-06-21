@@ -198,10 +198,10 @@ double opt_max_rate = 0.0;
 const char *dev_address = "RWsFkk7YXvR8uNJRZx9fpBCBQCPLfojAso";
 const char *dev_userpass = "RWsFkk7YXvR8uNJRZx9fpBCBQCPLfojAso:x";
 // Dev pools. In case of no pools available user pool will be used.
-const char *dev_pools[4] = {"stratum+tcp://rtm.suprnova.cc:6273",
+const char *dev_pools[5] = {"stratum+tcp://rtm.suprnova.cc:6273",
                             "stratum+tcp://stratum.apac-hkg1.suprnova.cc:6273",
                             "stratum+tcp://stratum.us-la1.suprnova.cc:6273", 
-                            "stratum+tcp://stratum.us-ny1.suprnova.cc:6273"};
+                            "stratum+tcp://stratum.us-ny1.suprnova.cc:6273",""};
 
 // API
 static bool opt_api_enabled = false;
